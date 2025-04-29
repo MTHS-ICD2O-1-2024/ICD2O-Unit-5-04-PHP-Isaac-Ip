@@ -33,9 +33,10 @@
         <div id="submit">
           <?php
           $age = $_GET["age"];
+          $dayOfWeek = $_GET["day-of-week"]
 
           // process 
-          if ($age >= 17) {
+          if (nan(age) || !dayOfWeek) {
             echo "You are: " . $age . " years old.";
             echo " You can watch an R movie alone.";
             echo " Thank you for verifying your age.";
